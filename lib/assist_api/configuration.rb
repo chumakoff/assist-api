@@ -2,7 +2,7 @@ require 'assist_api/exception/configuration_error'
 
 module AssistApi
   class Configuration
-    ENDPOINTS = {production: "https://paysecure.ru",
+    ENDPOINTS = {production: "https://payments318.paysecure.ru",
                  test: "https://payments.demo.paysecure.ru"}.freeze
 
     REQUIRED_OPTIONS = [:merchant_id, :login, :password, :mode].freeze
